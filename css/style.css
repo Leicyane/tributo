@@ -1,3 +1,26 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background-color: #333;
+    overflow: hidden;
+    box-shadow: 0px 0px 3px #ccc;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
 html{
     font-family: helvetica;
     background-color: #ddd ;
@@ -21,13 +44,18 @@ html{
 }
 .main-paragraph{
    font-style: italic;
+   font-size: larger;
 
 }
 
 /* imagem em destaque*/
 .featured-image{
     text-align: center;
-    margin-top: 30px;   
+    margin-top: 20px;   
+}
+img{
+    width: 1000px;
+    height: 700px;
 }
 /* Biografia */
 .biography-container{
@@ -50,6 +78,7 @@ html{
 .quotes-container p{
     font-style: italic;
 }
+
 /*Curiosidades*/
 .curiosities-container{
     padding: 25px 0;
@@ -65,4 +94,26 @@ html{
 .img-bold{
     font-weight: bold;
     text-align: center;
+}
+main{
+
+    max-width: 1100px;
+    background-color:white;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;   
+
+}
+h1{
+    text-align: center;
+}
+footer{
+    max-width: 1100px;
+    background-color:white;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;   
+    background-color: aliceblue;
+    overflow: hidden;
+    box-shadow: 0px 0px 3px #ccc;
 }
